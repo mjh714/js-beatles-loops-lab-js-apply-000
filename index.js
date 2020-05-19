@@ -33,20 +33,16 @@ function johnLennonFacts(array) {
   return newFacts;
  }
  
- function iLoveTheBeatles(number) {
-   var arr = [];
-   
-   var text = "I love the Beatles!";
-   var i = 0;
-   do {
-     arr.push(text);
-     i += number;
-   }
-   while (i < 15);
-   
-  
-   return arr;
- }
+ function iLoveTheBeatles(x) {
+  var array = [];
+  do {
+    x = array.push("I love the Beatles!");
+    x++;
+  } while (x < 15); {
+    
+  }
+  return array;
+}
  
  
  
